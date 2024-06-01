@@ -73,7 +73,6 @@ plot_intensity(x, I_total)
 # Отображаем цветное распределение интенсивности
 plot_color_intensity(x, I_total)
 
-
 # Нормируем интенсивность для отображения
 I_total /= np.max(I_total)
 
