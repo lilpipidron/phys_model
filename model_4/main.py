@@ -2,7 +2,6 @@ import numpy as np
 import matplotlib.pyplot as plt
 from matplotlib import cm
 
-
 def intensity_for_wavelength(N, d, a, x, L, lambda_, m):
     k = 2 * np.pi / lambda_  # волновое число
     beta = k * d / (2 * L) * x
